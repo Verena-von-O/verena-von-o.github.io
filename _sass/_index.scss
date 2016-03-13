@@ -1,0 +1,38 @@
+.titel-index {
+	text-align: left;
+	padding: 50px 0 50px 0;
+	color: $font-color-dark;
+}
+
+@media all and (max-width: 700px) {
+		.titel-index {
+			padding: 50px 30px 75px 30px;
+		}
+}
+
+.titel-index h2{
+	padding-bottom: 20px;
+	color: $link-hover;
+	font-size: 4em;
+	font-weight: 400;
+}
+
+.box-ganz-index	{
+	align-items: center;
+	display: block;
+	padding: 50px 0 50px 0;
+	color: $font-color-dark;
+	}
+
+@media all and (max-width: 700px) {
+		.box-ganz-index	{
+			align-items: center;
+			display: block;
+			padding: 50px 30px 50px 30px;
+			color: $font-color-dark;
+			}
+}
+
+.box-ganz-index h2 {
+	padding-bottom: 10px;
+}

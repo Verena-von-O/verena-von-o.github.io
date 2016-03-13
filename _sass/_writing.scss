@@ -1,0 +1,115 @@
+.post {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.post-content {
+	flex: 1;
+	padding: 50px 0 40px 0;
+}
+
+@media all and (max-width: 700px) {
+	.post-content {
+			padding: 50px 30px 50px 30px;
+		}
+}
+
+.post-title {
+	font-size: 1.75em;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: $link-hover;
+}
+
+.post-content p{
+	padding-bottom: 1em;
+	line-height: 2em;
+}
+
+.post-content h3{
+	color: $link-hover;
+	font-size: 1.5em;
+	padding: 15px 0;
+}
+
+.post-content li{
+	padding: 5px 0;
+	list-style: disc;
+	list-style-position: inside;
+}
+
+.post-content img {
+	max-height: 400px;
+	padding: 20px 0;
+}
+
+@media all and (max-width: 860px) {
+	.post-content img {
+		max-width: 500px;
+		}
+}
+
+@media all and (max-width: 860px) {
+	.post-content img {
+		max-width: 350px;
+		}
+}
+
+
+
+
+
+
+.title-page-writing {
+	text-align: left;
+	padding: 50px 0 0 0;
+	width: 600px;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 700px) {
+		.title-page-writing {
+			padding: 50px 50px 20px 50px;
+			width: auto;
+		}
+}
+
+.title-page-writing h2{
+	padding-bottom: 20px;
+	color: $link-hover;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+.box-writing-ganz {
+	color: $font-color-dark;
+	text-align: left;
+	width: 600px;
+	padding: 40px 0;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 700px) {
+	.box-writing-ganz {
+		padding: 40px 50px 20px 50px;
+			width: auto;
+		}
+}
+
+.writing-date {
+	color: $font-color-dark;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.writing-title {
+	font-size: 1.75em;
+	font-weight: 700;
+	color: $text-highlight-green;
+}
+
+.writing-text {
+	font-size: 1em;
+	line-height: 1.5em;
+}

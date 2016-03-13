@@ -1,0 +1,50 @@
+footer{
+	// background-color: $header-footer-background;
+	display: flex;
+	font-size: 0.85em;
+	flex-direction: row;
+	align-items: center;
+	color: $text-highlight-green;
+	// margin: 0 -40px 0 -40px;
+	padding: 30px 0 20px 0;
+	width: 600px;
+	margin: 0;
+}
+
+@media all and (max-width: 620px) {
+	footer{
+		display: flex;
+		flex-flow: row wrap;
+		flex-direction: column;
+		padding: 30px 0 20px 0;
+		width: auto;
+	}
+}
+
+
+.footer-links{
+	/*background-color: blue;*/
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+footer p {
+	padding: 5px 0;
+}
+
+footer a {
+	padding: 5px 0;
+}
+
+.divider-small {
+	width: 10px;
+}
+
+footer .divider {
+	flex-grow: 1;
+}

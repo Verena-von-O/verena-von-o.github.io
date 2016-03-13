@@ -1,0 +1,55 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: normal;
+	color: $font-color-dark;
+	// margin-left: 40px;
+	// margin-right: 40px;
+	// margin-top: 30px;
+}
+
+li{
+	list-style: none;
+}
+
+strong {
+	font-weight: 600;
+}
+
+.headline {
+	font-family: "Abril Fatface", serif;
+}
+
+h2{
+	font-size: 2em;
+	font-weight: 700;
+}
+
+h3{
+	font-size: 1.75em;
+	font-weight: 700;
+	line-height: 1.5em;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+/*unvisited link*/
+a:link{
+	color: $text-highlight-green;
+	text-decoration: none;
+}
+
+/*visited link*/
+a:visited{
+	color: $text-highlight-green;
+	text-decoration: none;
+}
+
+/*mouse over link*/
+a:hover{
+	color: $link-hover;
+	border-bottom: 1px solid $link-hover;
+}

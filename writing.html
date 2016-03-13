@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<div class="title-page-writing">
+	<h2 class="headline">This is my blog.<br>Have fun.</h2>
+</div>
+
+
+<ul>
+  {% for post in site.posts %}
+	<div class="box-writing-ganz">
+		<p class="writing-date">{{ post.date | date_to_long_string }}</p>
+		<p class="writing-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
+		<!-- <div class="box-writing-img">
+			<img src="img/writing1.jpg" alt="">
+		</div> -->
+		<p class="writing-text">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}<a href="{{ post.url }}">Continue reading...</a></p>
+	</div>
+	{% endfor %}
+</ul>
