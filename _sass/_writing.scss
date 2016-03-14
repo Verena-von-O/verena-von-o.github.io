@@ -41,20 +41,10 @@
 
 .post-content img {
 	max-height: 400px;
+	max-width: 100%;
 	padding: 20px 0;
 }
 
-@media all and (max-width: 860px) {
-	.post-content img {
-		max-width: 500px;
-		}
-}
-
-@media all and (max-width: 860px) {
-	.post-content img {
-		max-width: 350px;
-		}
-}
 
 
 

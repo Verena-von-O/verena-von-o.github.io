@@ -1,23 +1,22 @@
 ---
 layout: post
-title: UX Reading List
+title: My UX Reading List
 date: 2015-12-12
 ---
 
-Every designer, developer and person who is interested these topics should read books. A lot of books to be correct. Here you can find a list of books I red, want to read and read again from time to time.
+Every designer, developer and person who is interested these topics should read books. A lot of books to be correct. Here you can find a list of books I red, want to read and re-read from time to time.
 
-Of course the list is not complete but in my opinion a good start to get familiar with topics like Usability, User Experience, Research, Human Computer Interaction and so on.
+Of course this list is not complete but in my opinion a good start to get familiar with topics like Usability, User Experience, Research, Human Computer Interaction and so forth.
 
 ### My Reading List
 
-* [Designing with the Mind in Mind by Jeff Johnson](http://example.com/)
-* [The Shape of Design by Frank Chimero](http://example.com/)
-* [Think Fast and Slow by Daniel Kahneman](http://example.com/)
-* [The Elements of User Experience by Jesse James Garrett](http://example.com/)
-* [Just Enough Research by Erika Hall](http://example.com/)
-* [The Design of Everyday Things by Don Norman](http://example.com/)
-* [Neuro Web Design](http://example.com/) and [100 Things Every Designer Needs to Know About People by Susan Weinschenk](http://example.com/)
-* [Designing with the Mind in Mind by Jeff Johnson](http://example.com/)
-* [About Face by Alan Cooper](http://example.com/)
-* [Sketching User Experience by Bill Buxton](http://example.com/)
-* [Don't Make Me Think](http://example.com/) and [Rocket Surgery Made Easy by Steve Krug](http://example.com/)
+* [Designing with the Mind in Mind by Jeff Johnson](http://www.amazon.de/gp/product/0124079148/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0124079148&linkCode=as2&tag=vereortl-21){:target="_blank"}{:rel="nofollow"}
+* [The Shape of Design by Frank Chimero](http://www.shapeofdesignbook.com){:target="_blank"}{:rel="nofollow"}
+* [Think Fast and Slow by Daniel Kahneman](http://www.amazon.de/gp/product/0141033576/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0141033576&linkCode=as2&tag=vereortl-21){:target="_blank"}{:rel="nofollow"}
+* [The Elements of User Experience by Jesse James Garrett](http://www.amazon.de/gp/product/0321683684/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0321683684&linkCode=as2&tag=vereortl-21){:target="_blank"}{:rel="nofollow"}
+* [Just Enough Research by Erika Hall](https://abookapart.com/products/just-enough-research){:target="_blank"}{:rel="nofollow"}
+* [The Design of Everyday Things by Don Norman](http://www.amazon.de/gp/product/0465050654/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0465050654&linkCode=as2&tag=vereortl-21){:target="_blank"}{:rel="nofollow"}
+* [Neuro Web Design](http://www.amazon.de/gp/product/0321603605/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0321603605&linkCode=as2&tag=vereortl-21){:target="_blank"}{:rel="nofollow"} and [100 Things Every Designer Needs to Know About People by Susan Weinschenk](http://www.amazon.de/gp/product/0321767535/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0321767535&linkCode=as2&tag=vereortl-21){:target="_blank"}{:rel="nofollow"}
+* [About Face by Alan Cooper](http://www.amazon.de/gp/product/1118766571/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=1118766571&linkCode=as2&tag=vereortl-21){:target="_blank"}{:rel="nofollow"}
+* [Sketching User Experience by Bill Buxton](http://www.amazon.de/gp/product/0123740371/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0123740371&linkCode=as2&tag=vereortl-21){:target="_blank"}{:rel="nofollow"}
+* [Don't Make Me Think](http://www.amazon.de/gp/product/0321965515/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0321965515&linkCode=as2&tag=vereortl-21){:target="_blank"}{:rel="nofollow"} and [Rocket Surgery Made Easy by Steve Krug](http://www.amazon.de/gp/product/0321657292/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0321657292&linkCode=as2&tag=vereortl-21){:target="_blank"}{:rel="nofollow"}
