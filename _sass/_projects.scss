@@ -17,10 +17,7 @@
 }
 
 .box-project-ganz {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
+	// display: -webkit-flex;
 	display: flex;
 	flex-flow: row;
 	justify-content: flex-start;
@@ -31,7 +28,6 @@
 
 @media all and (max-width: 700px){
 	.box-project-ganz {
-		display: -webkit-box;
 		display: -moz-box;
 		display: -ms-flexbox;
 		display: -webkit-flex;
@@ -46,10 +42,11 @@
 
 .box-project-img {
 	max-width: 400px;
+	min-width: 250px;
 	}
 
 .box-project-img img {
-	width: 250px;
+	width: 100%;
 	// border-radius: 12px;
 }
 
