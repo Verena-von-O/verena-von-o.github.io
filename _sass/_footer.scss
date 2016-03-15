@@ -1,51 +1,42 @@
-footer{
-	// background-color: $header-footer-background;
-	display: flex;
-	font-size: 0.85em;
-	flex-direction: row;
-	align-items: center;
-	color: $text-highlight-green;
-	// margin: 0 -40px 0 -40px;
-	padding: 30px 0 20px 0;
-	width: 600px;
-	margin: 0;
-}
+footer {
+	margin-bottom: 2em;
 
-@media all and (max-width: 620px) {
-	footer{
-		display: flex;
-		flex-flow: row wrap;
-		flex-direction: column;
-		padding: 30px 0 20px 0;
-		width: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: baseline;
+
+	color: $text-highlight-green;
+	font-size: 0.85rem;
+
+	.first {
+		flex-grow: 1;
+		a {
+			margin-right: 1em;
+		}
+	}
+	.second {
+		flex-grow: 2;
+		text-align: right;
 	}
 }
 
+@media all and (max-width: 700px) {
+	footer {
+		flex-flow: column nowrap;
+		align-items: center;
+		margin-bottom: 3em;
 
-.footer-links{
-	/*background-color: blue;*/
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-start;
-}
+		.first, .second {
+			a {
+				margin-right: 0.5em;
+				margin-left: 0.5em;
+			}
 
-footer p {
-	padding: 5px 0;
-	margin: 0;
-}
-
-footer a {
-	padding: 5px 0;
-}
-
-.divider-small {
-	width: 10px;
-}
-
-footer .divider {
-	flex-grow: 1;
+			flex-direction: row;
+			text-align: center;
+		}
+		.second {
+			margin-top: 1em;
+		}
+	}
 }
