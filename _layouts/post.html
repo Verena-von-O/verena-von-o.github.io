@@ -3,14 +3,20 @@
 
   {% include head.html %}
 
-  <body class="post">
+  <body class="site">
 
     {% include header.html %}
 
-    <main class="post-content">
-      <h2 class="post-title">{{ page.title }}</h2>
-      {{ content }}
-      <h3 class="back-to-writing"> <a <a href="/writing">< Back to writing</a></h3>
+    <main class="site-content">
+      <article class="post">
+        <h2 class="post-title">{{ page.title }}</h2>
+        {{ content }}
+      </article>
+
+    <div class="back-link">
+      <a href="/writing">← Back to writing</a>
+    </div>
+
     </main>
 
     {% include footer.html %}

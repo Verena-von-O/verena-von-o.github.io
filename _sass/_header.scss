@@ -1,15 +1,11 @@
 header {
 	font-size: 1.25em;
 	align-items: center;
-	// background-color: $header-footer-background;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
-	padding: 40px 0;
+	margin-top: 2em;
+	margin-bottom: 5em;
 }
 
 a.current {
@@ -19,10 +15,6 @@ a.current {
 @media all and (max-width: 700px) {
 header {
 	align-items: center;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
 	flex-flow: column;
 	justify-content: flex-end;

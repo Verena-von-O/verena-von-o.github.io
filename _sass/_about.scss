@@ -1,48 +1,11 @@
-.box-about-ganz {
-	color: $font-color-dark;
-	text-align: left;
-	padding: 50px 0 0 0;
-}
-
-@media all and (max-width: 700px) {
-.box-about-ganz {
-	padding: 0 50px;
-	}
-}
-
-.box-about-ganz p {
-	padding: 40px 0 40px 0;
-	text-align: left;
-}
-
-@media all and (max-width: 700px) {
-.box-about-ganz p {
-	padding: 40px 0 10px 0;
-}
-	}
-
-
-.box-about-ganz h2 {
-	color: $link-hover;
-	font-size: 2em;
-	font-weight: 400;
-}
-
-@media all and (max-width: 700px) {
-.box-about-ganz h2 {
-	text-align: left;
-	padding: 50px 0 20px 0;
-}
-	}
-
 .box-about-img {
-	// background-color: $background-box;
-	// margin: 20px 0;
 	height: 400px;
 	max-width: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-color: $background-box;
+	margin: 20px 0;
 }
 
 .box-about-img img {
