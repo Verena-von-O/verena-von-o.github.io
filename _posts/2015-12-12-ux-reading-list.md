@@ -5,7 +5,7 @@ date: 2015-12-12
 permalink: ux-reading-list
 ---
 
-Every designer and developer and person should read books. A lot of books to be correct. Here you can find a list of books I red, want to read and re-read from time to time.
+Every designer and developer and person should read books. A lot of books to be correct. Here you can find a list of books I read, want to read and re-read from time to time.
 
 Of course this list is not complete but in my opinion a good start to get familiar with topics like Usability, User Experience, Research, Human Computer Interaction and so forth.
 

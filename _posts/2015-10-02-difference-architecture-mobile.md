@@ -6,7 +6,7 @@ permalink: architecture-web
 ---
 
 
-As an architect you learn how to build different kinds of building. From garages to skyscrapers and everything in between. When you become a designer or developer for web or mobile, you learn how to code und design for the different devices. But in both cases you should ask yourself what impact your decisions and designs can have.
+As an architect you learn how to build different kinds of buildings. From garages to skyscrapers and everything in between. When you become a designer or developer for web or mobile, you learn how to code und design for the different devices. In both cases you should ask yourself what impact your decisions and designs can have.
 
 I really like the article [Responsive Web Design](http://alistapart.com/article/responsive-web-design){:target="_blank"}{:rel="nofollow"} from Ethan Marcotte, who shows the difference between architecture and working on the web:
 
