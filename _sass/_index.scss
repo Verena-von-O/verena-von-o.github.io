@@ -1,7 +1,17 @@
-.box-ganz-index	{
-	margin: 6em 0;
-	}
 
-.box-ganz-index h2 {
-	padding-bottom: 0.5em;
+.grid {
+  flex-flow: row wrap;
+  display: flex;
+	margin: 1.5em 0;
+}
+
+.grid-cell {
+  flex: auto;
+  width: 200px;
+  margin: 0.25em;
+}
+
+.grid-cell img {
+  width: 100%;
+  height: auto;
 }
