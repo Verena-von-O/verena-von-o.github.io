@@ -7,11 +7,15 @@
 
 .grid-cell {
   flex: auto;
-  width: 200px;
+  width: 150px;
   margin: 0.25em;
 }
 
 .grid-cell img {
   width: 100%;
   height: auto;
+}
+
+.grid a:hover {
+	border-bottom: none;
 }
