@@ -1,14 +1,15 @@
 ---
-layout: page
+layout: page.de
 permalink: writing
+lang: de
 ---
 
-<h2 class="headline">This is my blog.<br>Have fun.</h2>
+<h2 class="headline">Hier ist mein Blog.<br>Viel Spass.</h2>
 
   {% for post in site.posts %}
 	<div class="post-container">
 		<span class="post-container__date">{{ post.date | date_to_long_string }}</span>
 		<h2 class="post-container__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-		<p class="post-container__text">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}<a href="{{ post.url }}">Continue reading...</a></p>
+		<p class="post-container__text">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}<a href="{{ post.url }}">Weiter lesen...</a></p>
 	</div>
 	{% endfor %}
