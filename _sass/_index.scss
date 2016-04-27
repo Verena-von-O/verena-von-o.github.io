@@ -19,3 +19,18 @@
 .grid a:hover {
 	border-bottom: none;
 }
+
+.index-post-container__date {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.index-post-container__title {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: $text-highlight-green;
+	margin-bottom: 0.5em;
+}
+.index-post-container__text {
+  font-size: 1em;
+	margin-bottom: 2em;
+}

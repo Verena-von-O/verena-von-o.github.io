@@ -7,6 +7,16 @@ lang: de
 
 <p>Ich bin UX Designer, UI Designer, Problemlöser, Ideenentwickler, Feedbackgeber und viel, viel mehr. All meine arbeit ist geprägt durch die Verbindung von Design mit psychologischen Erkentnissen um eine positive User Experience zu schaffen.</p>
 
+<h3 class="subheadline-index">Die letzten Blogeinträge</h3>
+  {% for post in site.posts limit: 3 %}
+	<div class="index-post-container">
+		<span class="index-post-container__date">{{ post.date | date_to_long_string }}</span>
+		<h2 class="index-post-container__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	</div>
+	{% endfor %}
+
+<h3 class="subheadline-index">Kunst und Ähnliches</h3>
+
 <p>Bei der Arbeit, aber auch in meiner Freizeit zeichne und male ich gerne. Einige der Resutate gibt es hier zu sehen, oder auf meinem <a href="https://www.instagram.com/verena_von_o/" target="_blank">instagram Account</a>.
 </p>
 
@@ -37,4 +47,5 @@ lang: de
 	</div>
 </div>
 
+<h3 class="subheadline-index">Außerdem noch...</h3>
 <p>Momentan lebe ich in Stuttgart, aber ich liebe es zu reisen. Aus diesem Grund werde ich im Sommer 2016 gemeinsam mit meinem <a href="http://www.florianbuerger.com" target="_blank"> handsome husband</a> zu neuen Abenteuern aufbrechen. Nachdem wir fast all unsere Sachen verkauft haben beginnen wir die Welt zu bereisen. Unterwegs werden wir weiter für Kunden arbeiten, aber auch eigene Projekte verfolgen.</p>
