@@ -1,15 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    autoprefixer-rails (6.3.3.1)
-      execjs
     coderay (1.1.1)
     colorator (0.1)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.0.9.1)
-    execjs (2.6.0)
     ffi (1.9.10)
     formatador (0.2.5)
     guard (2.13.0)
@@ -60,9 +57,6 @@ GEM
     notiffany (0.0.8)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    octopress-autoprefixer (2.0.0)
-      autoprefixer-rails
-      jekyll (~> 3.0)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -86,7 +80,6 @@ DEPENDENCIES
   guard-livereload
   jekyll
   jekyll-polyglot
-  octopress-autoprefixer
 
 BUNDLED WITH
    1.11.2

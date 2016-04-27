@@ -17,11 +17,8 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
-gems:
-  - octopress-autoprefixer
-  - jekyll-polyglot
+gems: ["jekyll-polyglot"]
 
 languages: ["en", "de"]
 default_lang: "en"
 exclude_from_localization: ["files", "img", "css"]
-parallel_localization: true
