@@ -17,16 +17,20 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
-# gems: ["jekyll-polyglot"]
-
-# languages: ["en", "de"]
-# default_lang: "en"
-# exclude_from_localization: ["files", "img", "css"]
-
 languages: ["en", "de"]
 
 gems:
-- jekyll-language-plugin
+  - jekyll-language-plugin
+  - jekyll-sitemap
 
 language_data: data.lang.%%
 language_includes_dir: _i18n
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
+  - publi.sh
+  - Personal Website.sublime-project
+  
