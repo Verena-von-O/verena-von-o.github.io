@@ -262,6 +262,8 @@ header {
 }
 
 
+
+
 // pojects
 
 .box-project-ganz {
@@ -346,9 +348,24 @@ header {
     margin-bottom: 1em;
     line-height: 2em;
   }
+    h1 {
+    color: $link-hover;
+    font-size: 3em;
+    padding: 15px 0;
+  }
+    h2 {
+    color: $link-hover;
+    font-size: 2em;
+    padding: 15px 0;
+  }
   h3 {
     color: $link-hover;
     font-size: 1.5em;
+    padding: 15px 0;
+  }
+   h4 {
+    color: $link-hover;
+    font-size: 1.25em;
     padding: 15px 0;
   }
 	li {
