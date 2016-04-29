@@ -26,7 +26,7 @@ gems:
 language_data: data.lang.%%
 language_includes_dir: _i18n
 
-include: [ ".nojekyll" ]
+include: [ ".nojekyll", "CNAME" ]
 
 exclude:
   - CNAME
@@ -36,4 +36,3 @@ exclude:
   - publi.sh
   - Personal Website.sublime-project
   - Personal Website.sublime-workspace
-  
