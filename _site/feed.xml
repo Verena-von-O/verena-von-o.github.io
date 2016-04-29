@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Verena Ortlieb</title>
+    <description></description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 29 Apr 2016 11:55:48 +0200</pubDate>
+    <lastBuildDate>Fri, 29 Apr 2016 11:55:48 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>The difference between architecture and web</title>
+        <description>&lt;p&gt;As an architect you learn how to build different kinds of buildings. From garages to skyscrapers and everything in between. When you become a designer or developer for web or mobile, you learn how to code und design for the different devices. In both cases you should ask yourself what impact your decisions and designs can have.&lt;/p&gt;
+
+&lt;p&gt;I really like the article &lt;a href=&quot;http://alistapart.com/article/responsive-web-design&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Responsive Web Design&lt;/a&gt; from Ethan Marcotte, who shows the difference between architecture and working on the web:&lt;/p&gt;
+
+&lt;p&gt;“A building’s foundation defines its footprint, which defines its frame, which shapes the facade. Each phase of the architectural process is more immutable, more unchanging than the last. Creative decisions quite literally shape a physical space, defining the way in which people move through its confines for decades or even centuries.&lt;/p&gt;
+
+&lt;p&gt;Working on the web, however, is a wholly different matter. Our work is defined by its transience, often refined or replaced within a year or two. Inconsistent window widths, screen resolutions, user preferences, and our users’ installed fonts are but a few of the intangibles we negotiate when we publish our work, and over the years, we’ve become incredibly adept at doing so.” (Ethan Marcotte in &lt;a href=&quot;http://alistapart.com/article/responsive-web-design&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Responsive Web Design&lt;/a&gt;).&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/architecture-web</link>
+        <guid isPermaLink="true">http://yourdomain.com/architecture-web</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>My UX Reading List</title>
+        <description>&lt;p&gt;Every designer and developer and person should read books. A lot of books to be correct. Here you can find a list of books I read, want to read and re-read from time to time.&lt;/p&gt;
+
+&lt;p&gt;Of course this list is not complete but in my opinion a good start to get familiar with topics like Usability, User Experience, Research, Human Computer Interaction and so forth.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-reading-list&quot;&gt;My Reading List&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.de/gp/product/0124079148/ref=as_li_tl?ie=UTF8&amp;amp;camp=1638&amp;amp;creative=6742&amp;amp;creativeASIN=0124079148&amp;amp;linkCode=as2&amp;amp;tag=vereortl-21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Designing with the Mind in Mind by Jeff Johnson&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.shapeofdesignbook.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;The Shape of Design by Frank Chimero&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.de/gp/product/0141033576/ref=as_li_tl?ie=UTF8&amp;amp;camp=1638&amp;amp;creative=6742&amp;amp;creativeASIN=0141033576&amp;amp;linkCode=as2&amp;amp;tag=vereortl-21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Think Fast and Slow by Daniel Kahneman&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.de/gp/product/0321683684/ref=as_li_tl?ie=UTF8&amp;amp;camp=1638&amp;amp;creative=6742&amp;amp;creativeASIN=0321683684&amp;amp;linkCode=as2&amp;amp;tag=vereortl-21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;The Elements of User Experience by Jesse James Garrett&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://abookapart.com/products/just-enough-research&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Just Enough Research by Erika Hall&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.de/gp/product/0465050654/ref=as_li_tl?ie=UTF8&amp;amp;camp=1638&amp;amp;creative=6742&amp;amp;creativeASIN=0465050654&amp;amp;linkCode=as2&amp;amp;tag=vereortl-21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;The Design of Everyday Things by Don Norman&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.de/gp/product/0321603605/ref=as_li_tl?ie=UTF8&amp;amp;camp=1638&amp;amp;creative=6742&amp;amp;creativeASIN=0321603605&amp;amp;linkCode=as2&amp;amp;tag=vereortl-21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Neuro Web Design&lt;/a&gt; and &lt;a href=&quot;http://www.amazon.de/gp/product/0321767535/ref=as_li_tl?ie=UTF8&amp;amp;camp=1638&amp;amp;creative=6742&amp;amp;creativeASIN=0321767535&amp;amp;linkCode=as2&amp;amp;tag=vereortl-21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;100 Things Every Designer Needs to Know About People by Susan Weinschenk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.de/gp/product/1118766571/ref=as_li_tl?ie=UTF8&amp;amp;camp=1638&amp;amp;creative=6742&amp;amp;creativeASIN=1118766571&amp;amp;linkCode=as2&amp;amp;tag=vereortl-21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;About Face by Alan Cooper&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.de/gp/product/0123740371/ref=as_li_tl?ie=UTF8&amp;amp;camp=1638&amp;amp;creative=6742&amp;amp;creativeASIN=0123740371&amp;amp;linkCode=as2&amp;amp;tag=vereortl-21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Sketching User Experience by Bill Buxton&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.de/gp/product/0321965515/ref=as_li_tl?ie=UTF8&amp;amp;camp=1638&amp;amp;creative=6742&amp;amp;creativeASIN=0321965515&amp;amp;linkCode=as2&amp;amp;tag=vereortl-21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Don’t Make Me Think&lt;/a&gt; and &lt;a href=&quot;http://www.amazon.de/gp/product/0321657292/ref=as_li_tl?ie=UTF8&amp;amp;camp=1638&amp;amp;creative=6742&amp;amp;creativeASIN=0321657292&amp;amp;linkCode=as2&amp;amp;tag=vereortl-21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Rocket Surgery Made Easy by Steve Krug&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 12 Dec 2015 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/ux-reading-list</link>
+        <guid isPermaLink="true">http://yourdomain.com/ux-reading-list</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The difference between an slip and a mistake</title>
+        <description>&lt;p&gt;In general, an error is an action which is incorrect or inaccurate. But there are different kinds of errors.&lt;/p&gt;
+
+&lt;p&gt;In his book &lt;a href=&quot;http://www.amazon.de/gp/product/0465050654/ref=as_li_tl?ie=UTF8&amp;amp;camp=1638&amp;amp;creative=6742&amp;amp;creativeASIN=0465050654&amp;amp;linkCode=as2&amp;amp;tag=vereortl-21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;The Design of Everyday Things&lt;/a&gt;, Don Norman explains the classification of human error he developed with the British psychologist James Reason.
+They divided human error into &lt;strong&gt;slips&lt;/strong&gt; and &lt;strong&gt;mistakes&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;When a person intends to do something and ends up doing something else it is called a &lt;strong&gt;slip&lt;/strong&gt;. But if a person establishes a wrong goal or forms a wrong plan it is called a &lt;strong&gt;mistake&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, if you forget to switch the kettle on while making a cup of tea it is a slip. But if you answer the phone because you misinterpret the sound of the kettle, it is a mistake.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Nov 2015 00:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/slip-mistake</link>
+        <guid isPermaLink="true">http://yourdomain.com/slip-mistake</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Neurodesign</title>
+        <description>&lt;p&gt;Neurodesign is integrating neurological findings into your design. This way, your design becomes more intuitive and therefore easier and better to use.&lt;/p&gt;
+
+&lt;p&gt;I first read about Neurodesign in &lt;a href=&quot;http://www.decode-online.de/downloads/pdf/Weave_Reptil_Hirn_Surft_mit_Christian_Scheier.pdf&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;“Reptil-Hirn surft mit”&lt;/a&gt;. This german article explains how much digital products can gain from concepts and designs that mind the users subliminal perception.&lt;/p&gt;
+
+&lt;p&gt;Real insights in the how and why of Neurodesign gives the book &lt;a href=&quot;http://www.amazon.de/gp/product/0321603605/ref=as_li_tl?ie=UTF8&amp;amp;camp=1638&amp;amp;creative=6742&amp;amp;creativeASIN=0321603605&amp;amp;linkCode=as2&amp;amp;tag=vereortl-21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Neuro Web Design&lt;/a&gt; by Susan Weinschenk. She explains how the brain works, why people act and react the way they do and how to integrate this insights into a product to improve the User Experience.&lt;/p&gt;
+
+&lt;p&gt;I love the idea to make products better by understanding the user’s brain. I studied this topic for my final thesis. Therefore, I started to read a lot of books and studies. Some of the books you can find in my &lt;a href=&quot;/ux-reading-list&quot;&gt;reading list&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Oct 2015 00:00:00 +0200</pubDate>
+        <link>http://yourdomain.com/neurodesign</link>
+        <guid isPermaLink="true">http://yourdomain.com/neurodesign</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Making your own website</title>
+        <description>&lt;p&gt;If you want to create a portfolio as UX Designer (or any other Designer) you have different possibilities. I decided to show my projects on my own website. Therefore I had to learn how to code.&lt;/p&gt;
+
+&lt;p&gt;My biggest asset to this plan was my &lt;a href=&quot;http://www.florianbuerger.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;super-nerd husband&lt;/a&gt;. Having a Developer at your dispose 24/7 really helps in the process. But as an independent and sometimes stubborn woman, I wanted to do as much as possible on my own.&lt;/p&gt;
+
+&lt;p&gt;First step was to take some online courses. I love the lessons from &lt;a href=&quot;https://www.codecademy.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Codeacademy&lt;/a&gt;. I started with  “HTML&amp;amp;CSS”  and after that I took the “Make a Website” course. The lessons are short, easy and very well explained. After these lessons I felt really well prepared to start coding.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/Picture_Learn Code.jpg&quot; alt=&quot;Learn Code&quot; title=&quot;Learn Code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next up was a lot of trying, deleting, changing, swearing and cheering. After I understood the basics of how to do it, I had to decide on the visuals and the content.&lt;/p&gt;
+
+&lt;p&gt;First I collected everything I thought might be nice to have on my website. Something about me, of course, but also my work, my thoughts, my ideas, and maybe some of my art. Next step was to build a framework. I put everything in, then I started to rearrange and made some cuts and additions until I was satisfied with it.&lt;/p&gt;
+
+&lt;p&gt;The visual design was the most difficult part for me. There are just so much possibilities and nice ways to make your website pretty. So I had to change my design every other day because I had a better idea. But once I found my style, I just new that the search was over.&lt;/p&gt;
+
+&lt;p&gt;After that its all about filling your pretty pages with content. Easier said than done, on some days it was really hard to achieve. But I hope you like what you find on my very own website.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Sep 2015 00:00:00 +0200</pubDate>
+        <link>http://yourdomain.com/own-website</link>
+        <guid isPermaLink="true">http://yourdomain.com/own-website</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hello World</title>
+        <description>&lt;p&gt;Just saying hi and welcome to my site. I am excited to learn how to code, how to make my code better and to share my experiences with you.&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoy reading about my progress and how I get there. I will write about courses I take, articles I read and other thinks I come across. If you have any questions or just want to talk, you can reach me via &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#118;&amp;#101;&amp;#114;&amp;#101;&amp;#110;&amp;#097;&amp;#046;&amp;#111;&amp;#114;&amp;#116;&amp;#108;&amp;#105;&amp;#101;&amp;#098;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;mail&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Sep 2015 00:00:00 +0200</pubDate>
+        <link>http://yourdomain.com/hello-world</link>
+        <guid isPermaLink="true">http://yourdomain.com/hello-world</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hallo Welt</title>
+        <description>&lt;p&gt;Just saying hi and welcome to my site. I am excited to learn how to code, how to make my code better and to share my experiences with you.&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoy reading about my progress and how I get there. I will write about courses I take, articles I read and other thinks I come across. If you have any questions or just want to talk, you can reach me via &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#118;&amp;#101;&amp;#114;&amp;#101;&amp;#110;&amp;#097;&amp;#046;&amp;#111;&amp;#114;&amp;#116;&amp;#108;&amp;#105;&amp;#101;&amp;#098;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;mail&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Sep 2015 00:00:00 +0200</pubDate>
+        <link>http://yourdomain.com/hallo</link>
+        <guid isPermaLink="true">http://yourdomain.com/hallo</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
