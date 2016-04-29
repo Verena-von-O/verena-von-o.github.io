@@ -3,6 +3,7 @@ layout: post
 title: Neurodesign
 date: 2015-10-02
 permalink: neurodesign
+language: en
 ---
 
 Neurodesign is integrating neurological findings into your design. This way, your design becomes more intuitive and therefore easier and better to use.  

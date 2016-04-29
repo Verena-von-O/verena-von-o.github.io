@@ -5,21 +5,17 @@
 
   <body class="site">
 
-    {% include header.html %}
+    {% tinclude header.html %}
 
     <main class="site-content">
       <article class="post">
         <h2 class="post-title">{{ page.title }}</h2>
         {{ content }}
       </article>
-
-    <div class="back-link">
-      <a href="/writing" onclick="history.back(-1)">← Back to writing</a>
-    </div>
-
+  {% tinclude project_footer.html %}
     </main>
 
-    {% include footer.html %}
+    {% tinclude footer.html %}
 
   </body>
 

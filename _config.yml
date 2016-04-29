@@ -17,8 +17,16 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
-gems: ["jekyll-polyglot"]
+# gems: ["jekyll-polyglot"]
+
+# languages: ["en", "de"]
+# default_lang: "en"
+# exclude_from_localization: ["files", "img", "css"]
 
 languages: ["en", "de"]
-default_lang: "en"
-exclude_from_localization: ["files", "img", "css"]
+
+gems:
+- jekyll-language-plugin
+
+language_data: data.lang.%%
+language_includes_dir: _i18n

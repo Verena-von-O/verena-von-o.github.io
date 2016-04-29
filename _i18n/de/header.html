@@ -1,0 +1,31 @@
+<header>
+  <div class="header-logo">
+    <a href="/de">
+      Verena Ortlieb
+    </a>
+  </div>
+  <div class="header-text">
+    <!-- <p>Hello, my name is Verena <br> & <br>I'm a UX Designer.</p> -->
+  </div>
+
+  {% assign current = page.url | downcase | split: '/' %}
+
+  <nav>
+    <ul class="header-menu">
+      <li><a href="/de/projects" {% if current[2] == "projects.html" %}class="current"{% endif %}>Projekte</a></li>
+      <li><a href="/de/writing" {% if current[2] == "writing.html" %}class="current"{% endif %}>Blog</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+
+<div class="header-menu-lang">
+{% for language in site.languages %}
+    {% if page.language == language %}
+      <a title="{% tl language %}">{% tl language %}</a>
+    {% else %}
+      <a href="{{ site.baseurl }}/{{ language }}/{{current[2]}}" title="{{ tl switch_language }}">{% tl language %}</a>
+    {% endif %}
+{% endfor %}
+</div>

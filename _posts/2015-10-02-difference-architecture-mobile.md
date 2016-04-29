@@ -3,6 +3,7 @@ layout: post
 title: The difference between architecture and web
 date: 2016-02-10
 permalink: architecture-web
+language: en
 ---
 
 

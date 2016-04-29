@@ -3,6 +3,7 @@ layout: post
 title: Making your own website
 date: 2015-09-10
 permalink: own-website
+language: en
 ---
 
 If you want to create a portfolio as UX Designer (or any other Designer) you have different possibilities. I decided to show my projects on my own website. Therefore I had to learn how to code.

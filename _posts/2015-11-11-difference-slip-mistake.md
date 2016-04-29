@@ -3,6 +3,7 @@ layout: post
 title: The difference between an slip and a mistake
 date: 2015-11-11
 permalink: slip-mistake
+language: en
 ---
 
 

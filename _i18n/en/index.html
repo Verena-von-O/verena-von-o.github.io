@@ -1,0 +1,41 @@
+<h2 class="headline-index">Hey there, <br> I am Verena.</h2>
+
+<p>I am a UX Designer, UI Designer, problemsolver, idea creator, feedback encoder and much, much more. In all my work I combine design with psychological insights to create a great user experience.</p>
+
+<h3 class="subheadline-index">Latest Writing</h3>
+  {% for post in site.posts limit: 3 %}
+	<div class="index-post-container">
+		<span class="index-post-container__date">{{ post.date | date_to_long_string }}</span>
+		<h2 class="index-post-container__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	</div>
+	{% endfor %}
+
+<h3 class="subheadline-index">Some Say its Art</h3>
+
+<p>Aside from work I like to draw and sketch. Some of the outcome you can find here or on my <a href="https://www.instagram.com/verena_von_o/" target="_blank">instagram account</a>.
+</p>
+
+<div class="grid">
+	<div class="grid-cell">
+		<img src="/img/breakfast.jpg" alt="breakfast">
+	</div>
+	<div class="grid-cell">
+		<img src="/img/love.png" alt="love">
+	</div>
+	<div class="grid-cell">
+		<img src="/img/love-404.png" alt="love-404">
+	</div>
+
+	<div class="grid-cell">
+		<img src="/img/deer.jpg" alt="Deer">
+	</div>
+	<div class="grid-cell">
+		<img src="/img/done-icon.png" alt="Done App">
+	</div>
+	<div class="grid-cell">
+		<img src="/img/Ballerina.jpg" alt="Ballerina">
+	</div>
+</div>
+
+<h3 class="subheadline-index">Anything Else</h3>
+<p>Currently, I live in Stuttgart, Germany, but love to travel the world. Starting summer 2016, me and <a href="http://www.florianbuerger.com" target="_blank">my handsome husband</a> are going to start our next adventure. After selling almost all our stuff we start to travel the world while working on projects for clients, but also on some ideas of our own.</p>

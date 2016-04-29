@@ -77,13 +77,14 @@ strong {
 	color: $link-hover;
 	font-size: 4em;
 	font-weight: 400;
-	margin-bottom: 0em;
+	margin-bottom: 0.25em;
 }
 
 .subheadline-index {
 	font-family: "Abril Fatface", serif;
 	color: $link-hover;
-	margin-top: 1.5em;
+	margin-top: 2em;
+	font-weight: 400;
 }
 
 h2{
@@ -122,9 +123,9 @@ a:hover{
 }
 
 
-
-
-
+a.current {
+	color: $link-hover;
+}
 
 
 
@@ -133,7 +134,7 @@ a:hover{
 
 header {
 	font-size: 1.25em;
-	align-items: center;
+	align-items: baseline;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
@@ -141,9 +142,6 @@ header {
 	margin-bottom: 5em;
 }
 
-a.current {
-	color: $link-hover;
-}
 
 @media all and (max-width: 700px) {
 header {
@@ -178,10 +176,6 @@ header {
 }
 
 .header-menu {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
@@ -196,6 +190,28 @@ header {
 		padding-bottom: 0;
 	}
 }
+
+.header-menu-lang {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	position: absolute;
+	float: right;
+	right: 3em;
+	top: 2em;
+	font-size: 1.25em;
+}
+
+.header-menu-lang a {
+	padding: 0.2em;
+}
+
+@media all and (max-width: 700px) {
+	.header-menu-lang a {
+		padding-bottom: 0;
+	}
+}
+
 
 
 
@@ -229,7 +245,7 @@ header {
 }
 .index-post-container__title {
  	font-size: 1.25em;
- 	font-weight: 700;
+ 	font-weight: 600;
  	color: $text-highlight-green;
 	margin-bottom: 0.5em;
 }
