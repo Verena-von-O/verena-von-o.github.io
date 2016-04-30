@@ -16,7 +16,7 @@
       <li><a href="/de/writing" {% if current[2] == "writing.html" %}class="current"{% endif %}>Blog</a></li>
     </ul>
   </nav>
-<div>
+<div class="header-menu-lang">
 {% for language in site.languages %}
     {% if page.language == language %}
       <a title="{% tl language %}">{% tl language %}</a>

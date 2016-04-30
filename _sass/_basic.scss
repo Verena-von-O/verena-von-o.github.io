@@ -182,12 +182,16 @@ header {
 }
 
 .header-menu a {
-	padding: 0.8em;
+	padding-left: 0.8em;
+	padding-right: 0.8em;
+
 }
 
 @media all and (max-width: 700px) {
 	.header-menu a {
 		padding-bottom: 0;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
 	}
 }
 
@@ -195,31 +199,19 @@ header {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
-	position: absolute;
-	float: right;
-	right: 2em;
-	top: 2.3em;
-	font-size: 1.25em;
 }
 
 .header-menu-lang a {
-	padding-left: 0.75em;
+	padding-left: 0.4em;
 }
 
 @media all and (max-width: 700px) {
-	.header-menu-lang {
-	display: flex;
-	flex-flow: column;
-	justify-content: flex-end;
-	position: absolute;
-	float: right;
-	right: 1.5em;
-	top: 4em;
-	font-size: 1.25em;
-
+	.header-menu-lang a {
+		padding-bottom: 0;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
 	}
 }
-
 
 
 // index
