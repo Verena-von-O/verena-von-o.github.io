@@ -16,10 +16,7 @@
       <li><a href="/en/writing" {% if current[2] == "writing.html" %}class="current"{% endif %}>Writing</a></li>
     </ul>
   </nav>
-
-</header>
-
-<div class="header-menu-lang">
+<div>
 {% for language in site.languages %}
     {% if page.language == language %}
       <a title="{% tl language %}">{% tl language %}</a>
@@ -28,3 +25,6 @@
     {% endif %}
 {% endfor %}
 </div>
+</header>
+
+
