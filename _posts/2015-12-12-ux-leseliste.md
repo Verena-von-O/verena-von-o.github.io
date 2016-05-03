@@ -6,9 +6,9 @@ permalink: ux-leseliste
 language: de
 ---
 
-Jeder Designer, Entwickler oder andersweitig Interessierte liest Bücher. Viele Bücher um genau zu sein. Natürlich auch viele Blogs, Artikel und so weiter, aber hier soll es jetzt erstmal um Bücher gehen.
+Jeder Designer, Entwickler oder anderweitig Interessierte liest Bücher. Viele Bücher um genau zu sein. Natürlich auch viele Blogs, Artikel und so weiter, aber hier soll es jetzt erstmal um Bücher gehen.
 
-Im Gegensatz zu Blogeinträgen sind Bücher meist umfassender und genauer recherchiert, allerdings nicht so aktuell.
+Im Gegensatz zu Blogbeiträgen sind Bücher meist umfassender und genauer recherchiert, allerdings nicht so aktuell.
 
 Um zum Punkt zu kommen: Hier habe ich eine Liste der Bücher, welche ich hilfreich und interessant finde. Bei den Meisten lohnt es sich, diese öfters mal zu Hand zu nehmen. Abgedeckt und angeschnitten werden Themen wie Usability, User Experience, Research, HCI und und und...
 
