@@ -158,7 +158,6 @@ header {
 .header-logo a{
 	text-decoration: none;
 	font-size: 1.25em;
-	padding: 0.8em 0;
 }
 
 @media all and (max-width: 700px) {
@@ -186,12 +185,10 @@ header {
 .header-menu a {
 	padding-left: 0.8em;
 	padding-right: 0.8em;
-
 }
 
 @media all and (max-width: 700px) {
 	.header-menu a {
-		padding-bottom: 0;
 		padding-left: 0.5em;
 		padding-right: 0.5em;
 	}
@@ -204,14 +201,14 @@ header {
 }
 
 .header-menu-lang a {
-	padding-left: 0.4em;
+	margin-left: 0.4em;
 }
 
 @media all and (max-width: 700px) {
 	.header-menu-lang a {
-		padding-bottom: 0;
-		padding-left: 0.5em;
-		padding-right: 0.5em;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		margin-top: 0.5em;
 	}
 }
 
@@ -241,7 +238,7 @@ header {
 }
 
 .index-post-container__date {
- 	font-size: 0.8em;
+ 	font-size: 0.85em;
   	font-weight: 300;
 }
 .index-post-container__title {

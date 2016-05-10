@@ -3,11 +3,12 @@
 <p>I am a UX/UI Designer traveling the world. I currently work as a freelancer for different clients on various projects. Common goal of all these projects is to create a positive User Expericence. I can help developing a new concept, accompany the development process or revise existing products. Ask me about it via <a href="mailto:verena.ortlieb@gmail.com?subject=Let's talk">mail</a>.</p>
 
 <h3 class="subheadline-index">Latest Writing</h3>
-  {% for post in site.posts limit: 3 %}
+  {% for post in site.posts limit: 1 %}
   	{% if post.language == page.language %}
 	<div class="index-post-container">
-		<time class="post-container__date" datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | tdate: 'post.date_format' }}</time>
+		<div class="index-post-container__date" datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | tdate: 'post.date_format' }}</div>
 		<h2 class="index-post-container__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<p class="index-post-container__text">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}<a href="{{ post.url }}">Weiter lesen...</a></p>
 	</div>
 	{% endif %}
 	{% endfor %}
