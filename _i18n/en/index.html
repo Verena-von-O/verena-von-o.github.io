@@ -1,18 +1,11 @@
 <h2 class="headline-index">Hey there, <br> I am Verena.</h2>
 
-<p>I am a UX/UI Designer traveling the world. I currently work as a freelancer for different clients on various projects. Common goal of all these projects is to create a positive User Expericence. I can help developing a new concept, accompany the development process or revise existing products. <br>
-In addition to that I do 2-Animations, Icons and other graphical elements for various projects. This way I am able to integrate my passion for drawing, painting and creating into my work.</p>
+<p>I am an UX/UI & Icon designer and illutrator travelling the world. Currently I am working as a freelancer for various clients on a wide range of projects. I love new challenges.<br>
+Besides showing some of my projects this website is my first coding project. Hope you like it as much as I do.</p>
 
-<h3 class="subheadline-index">Latest Writing</h3>
-  {% for post in site.posts limit: 1 %}
-  	{% if post.language == page.language %}
-	<div class="index-post-container">
-		<div class="index-post-container__date" datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | tdate: 'post.date_format' }}</div>
-		<h2 class="index-post-container__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-		<p class="index-post-container__text">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}<a href="{{ post.url }}">Weiter lesen...</a></p>
-	</div>
-	{% endif %}
-	{% endfor %}
+
+
+
 
 <h3 class="subheadline-index">Some Say its Art</h3>
 
@@ -40,6 +33,17 @@ In addition to that I do 2-Animations, Icons and other graphical elements for va
 		<img src="/img/Ballerina.jpg" alt="Ballerina">
 	</div>
 </div>
+
+<h3 class="subheadline-index">Latest Writing</h3>
+  {% for post in site.posts limit: 1 %}
+  	{% if post.language == page.language %}
+	<div class="index-post-container">
+		<div class="index-post-container__date" datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | tdate: 'post.date_format' }}</div>
+		<h2 class="index-post-container__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<p class="index-post-container__text">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}<a href="{{ post.url }}">Weiter lesen...</a></p>
+	</div>
+	{% endif %}
+	{% endfor %}
 
 <h3 class="subheadline-index">Anything Else</h3>
 <p>Starting in summer 2016, me and <a href="http://www.florianbuerger.com" target="_blank">my handsome husband</a> are going to start our next adventure. After selling almost all our stuff we start to travel the world while working on projects for clients, but also on some ideas of our own. If you want to read more about our adventures, you can find <a href="https://www.immerguteswetter.de" target="_blank">our blog here</a> and see some pictures <a href="https://www.instagram.com/immerguteswetter/" target="_blank">here on Instagram</a>.</p>
