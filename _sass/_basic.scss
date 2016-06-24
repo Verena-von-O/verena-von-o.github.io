@@ -257,50 +257,30 @@ header {
 
 // pojects
 
-.box-project-ganz {
-	display: flex;
-	flex-flow: row;
-	justify-content: flex-start;
-	margin: 5em 0;
+.grid-projects {
+  flex-flow: row wrap;
+  display: flex;
+	margin: 1.5em 0;
 }
 
-@media all and (max-width: 700px){
-.box-project-ganz {
-	display: flex;
-	flex-flow: column;
-	justify-content: flex-start;
-	margin: 5em 0;
-	}
+.grid-cell-projects {
+  flex: auto;
+  width: 150px;
+  margin: 0.25em;
 }
 
-.box-project-img {
-	max-width: 400px;
-	min-width: 250px;
-	}
-
-.box-project-img img {
-	width: 100%;
+.grid-cell-projects img {
+  width: 100%;
+  height: auto;
 }
 
-.box-project-img a:hover {
+.grid-projects a:hover {
 	border-bottom: none;
 }
 
-.box-project-text {
-	margin: auto 20px;
-}
 
-@media all and (max-width: 700px){
-	.box-project-text {
-		margin: 10px 0;
-	}
-}
 
-.box-project-text h2 {
-	color: $text-highlight-green;
-	margin-bottom: 10px;
-}
-
+// projects text 
 
 .project-sub-content h3 {
 	color: $text-highlight-green;
@@ -331,6 +311,34 @@ header {
 	max-width: 100%;
 }
 
+
+.grid-sub-projects {
+  flex-flow: row wrap;
+  display: flex;
+	margin: 1.5em 0;
+}
+
+.grid-cell-sub-projects {
+  flex: auto;
+  width: 200px;
+  margin: 0.25em;
+}
+
+.grid-cell-sub-projects img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-sub-projects a:hover {
+	border-bottom: none;
+}
+
+.project-sub-title {
+	color: $text-highlight-green;
+	font-weight: 600;
+	margin: -3em 0 1em 0;
+	font-size: 1.5em;
+	}
 
 
 // writing
