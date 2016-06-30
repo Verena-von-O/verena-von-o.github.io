@@ -34,15 +34,20 @@ Diese Webseite ist neben einer kleinen Vorstellung einiger meiner Projekte auch 
 </a>
 
 <h3 class="subheadline-index">Die letzten Blogeinträge</h3>
-  {% for post in site.posts limit: 2 %}
-  	{% if post.language == page.language %}
-	<div class="index-post-container">
-		<div class="index-post-container__date" datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | tdate: 'post.date_format' }}</div> 
+  {% for post in site.posts %}
+	{% assign latestShown = false %}
+	{% if post.language == page.language %}
+		{% assign latestShown = true %}
+		<div class="index-post-container">
+		<div class="index-post-container__date" datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | tdate: 'post.date_format' }}</div>
 		<h2 class="index-post-container__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 		<p class="index-post-container__text">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}<a href="{{ post.url }}">Weiter lesen...</a></p>
 	</div>
 	{% endif %}
-	{% endfor %}
+	{% if latestShown == true %}
+		{% break %}
+	{% endif %}
+{% endfor %}
 	
 <h3 class="subheadline-index">Außerdem noch...</h3>
 <p>Momentan lebe ich in Stuttgart, aber ich liebe es zu reisen. Aus diesem Grund werde ich im Sommer 2016 gemeinsam mit meinem <a href="http://www.florianbuerger.com" target="_blank"> handsome husband</a> zu neuen Abenteuern aufbrechen. Nachdem wir fast all unsere Sachen verkauft haben beginnen wir die Welt zu bereisen. Unterwegs werden wir weiter für Kunden arbeiten, aber auch eigene Projekte verfolgen. Wenn ihr mehr über unsere Abenteuer lesen wollt, dann geht es <a href="https://www.immerguteswetter.de" target="_blank">hier zu unserem Blog</a> und <a href="https://www.instagram.com/immerguteswetter/" target="_blank">hier zu Instagram</a> um immer neue Bilder zu sehen.</p>
