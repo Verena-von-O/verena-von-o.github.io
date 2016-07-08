@@ -1,6 +1,5 @@
 #!/bin/bash
 
-bundle exec jekyll build
 postcss --replace --use autoprefixer _site/css/style.css 
 cd _site
 git add -A
