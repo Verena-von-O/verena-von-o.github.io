@@ -2,7 +2,7 @@
 layout: post
 title: Meine UX Leseliste
 date: 2015-12-12
-permalink: ux-leseliste
+permalink: /de/ux-leseliste
 language: de
 ---
 

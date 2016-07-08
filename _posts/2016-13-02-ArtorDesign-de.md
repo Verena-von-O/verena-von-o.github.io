@@ -2,7 +2,7 @@
 layout: post
 title: Kunst oder Design
 date: 2016-02-13
-permalink: kunstoderdesign
+permalink: /de/kunstoderdesign
 language: de
 ---
 

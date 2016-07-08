@@ -2,7 +2,7 @@
 layout: post
 title: My UX Reading List
 date: 2015-12-12
-permalink: ux-reading-list
+permalink: /en/ux-reading-list
 language: en
 ---
 

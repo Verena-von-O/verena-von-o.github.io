@@ -2,7 +2,7 @@
 layout: post
 title: Jeden Tag ein Bild
 date: 2016-06-23
-permalink: picture-a-day
+permalink: /de/picture-a-day
 language: de
 ---
 
