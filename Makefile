@@ -19,4 +19,5 @@ serve:
 	bundle exec guard
 
 publish: precheck clean build
-	sh publi.sh
+	cd _site; git add -A; git commit -m "`date`"; git push origin master --force
+	echo "Successfully built and pushed to GitHub."
