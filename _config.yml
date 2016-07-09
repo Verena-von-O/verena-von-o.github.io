@@ -1,29 +1,15 @@
 title: Verena Ortlieb
-email: verena.ortlieb@gmail.com
-description: 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://verenaortlieb.com" # the base hostname & protocol for your site
+permalink: /:title/
+base: http://www.verenaortlieb.com
 
-permalinks: pretty
+kramdown:
+  input: GFM
 
-markdown: kramdown
+exclude: [ "Gemfile", "Gemfile.lock", "Makefile" ]
 
-languages: ["en", "de"]
-
-gems:
-  - jekyll-language-plugin
-  - jekyll-sitemap
-
-language_data: data.lang.%%
-language_includes_dir: _i18n
-
-include: [ ".nojekyll", "CNAME" ]
-
-exclude:
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - Guardfile
-  - publi.sh
-  - Personal Website.sublime-project
-  - Personal Website.sublime-workspace
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: page

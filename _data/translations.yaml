@@ -1,0 +1,12 @@
+en:
+  date: 
+      monthnames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']  
+  post:
+  published: Published
+  date_format: '%B %d, %Y'
+de:
+  date:
+        monthnames: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']
+post:
+  published: Veröffentlicht
+  date_format: '%d. %B %Y'

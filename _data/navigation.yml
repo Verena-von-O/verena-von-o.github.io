@@ -1,0 +1,20 @@
+en:
+  logo:
+    title: "Verena Ortlieb"
+    url:   "/"
+  projects:
+    title: "Projects"
+    url:   "/projects/"
+  writing:
+    title: "Writing"
+    url:   "/about/"
+de:
+  logo:
+    title: "Verena Ortlieb"
+    url:   "/journal/"
+  journal:
+    title: "Projekte"
+    url:   "/projects/"
+  about:
+    title: "Blog"
+    url:   "/writing/"
