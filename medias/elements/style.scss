@@ -144,19 +144,18 @@ header {
 @media all and (max-width: 700px) {
 header {
   margin-bottom: 2.5em;
-
+  flex-flow: column;
+  align-items: center;
 }
   }
 
 .header-left {
-  background-color: red;
-
+  padding-bottom: 0.5em;
 
 }
 
 .header-lang {
-  background-color: green;
-  
+
 }
 
 

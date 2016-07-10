@@ -33,7 +33,6 @@
     <div class="header-lang">{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}{% for post in posts %}
       <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>{% endfor %}
     </div>
-  
 </header>
 
 
