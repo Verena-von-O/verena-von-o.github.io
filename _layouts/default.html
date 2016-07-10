@@ -1,6 +1,4 @@
 <!doctype html>
-
-
 <html lang="{{ page.lang }}">
 <head>
   <meta charset="utf-8">
@@ -12,7 +10,7 @@
   <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600,800' rel='stylesheet' type='text/css'>
   <link rel="alternate" href="/rss.xml" type="application/rss+xml">
-  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">{% capture hide %}
+  <link rel="stylesheet" href="/style.css">{% capture hide %}
     {% assign posts=site.posts | where:"date", page.date %}
     {% for post in posts %}
       {% if post.lang != page.lang %}
@@ -22,125 +20,37 @@
     {% endfor %}
   {% endcapture %}{% if url %}
   <link rel="alternate" hreflang="{{ lang }}" href="{{ url }}">{% endif %}
-
 </head>
 
-<body class="{{ page.lang }}{% if page.type == 'pages' %} page{% endif %}">
 
 
-
-
+<body class="{{ page.lang }}{% if page.type == 'pages' %} page{% endif %}" id="site">
 
 <header>
-  <ul>{% for menu in site.data.navigation[page.lang] %}
-    <li><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>{% endfor %}
-    <li class="lang">{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}{% for post in posts %}
+  {% for menu in site.data.navigation[page.lang] %}
+    <div class="header-left"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></div>{% endfor %}
+    <div></div>
+    <div class="header-lang">{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}{% for post in posts %}
       <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>{% endfor %}
-    </li>
-  </ul>
-
+    </div>
+  
 </header>
 
 
-
-
-
-<!-- <div class="nav">
-  <ul>{% for menu in site.data.navigation[page.lang] %}
-    <li><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></li>{% endfor %}
-    <li class="lang">{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}{% for post in posts %}
-      <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>{% endfor %}
-    </li>
-  </ul>
-</div> -->
-
-
-
-<h1 style="background-image: url('/medias/headers/{{ page.date | date:'%Y-%m-%d' }}.jpg')">{{ page.title }}</h1>
-
-
-
-<div class="article">
-{% include date.html date=page.date %}{% if page.type != 'pages' %}
-<div class="date">{{ day }}{{ sup }} {{ month }} {{ year }}</div>{% endif %}
-{% if page.original %}{% include date.html date=page.original %}
-<div class="original">({{ site.data.translations[page.lang].original }} {{ day }}{{ sup }} {{ month }} {{ year }})</div>{% endif %}
-{% capture hide %}
-  {% assign content = content | split: '<pre' %}
-
-  {% for parts in content %}
-
-    {% assign part = parts | split: '</pre>' %}
-    {% assign c = part.first %}
-    {% assign t = part.last %}
-
-    {% assign t = t | replace: '~', '&nbsp;'
-                    | replace: 'LaTeX', '<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>'
-                    | replace: '[[', '<span class="as"></span><span class="br"> (</span><span class="mar">'
-                    | replace: ']]', '</span><span class="br">)</span>' %}
-
-    {% if page.lang == 'fr' %}
-
-    {% assign t = t | replace: '“', '«&#160;'
-                    | replace: '”', '&#160;»'
-                    | replace: ' :', '&#160;:'
-                    | replace: ' %', '&#160;%'
-                    | replace: ' ;', '<span style="white-space:nowrap">&thinsp;</span>;'
-                    | replace: ' !', '<span style="white-space:nowrap">&thinsp;</span>!'
-                    | replace @: ' ?', '<span style="white-space:nowrap">&thinsp;</span>?' %}
-
-    {% endif %}
-
-    {% if part.size == 2 %}
-
-      {% capture output %}{{ output }}<pre{{ c }}</pre>{% endcapture %}
-
-    {% endif %}
-
-    {% capture output %}{{ output }}{{ t }}{% endcapture %}
-
-  {% endfor %}
-{% endcapture %}{{ output }}<hr/>
-
-</div>
-
-
-
-<div class="foot">{% include date.html date=page.date %}
-  {{ site.data.translations[page.lang].created }} <span>{{ day }}{{ sup }} {{ month }} {{ year }}</span> {{ site.data.translations[page.lang].author }} <a href="http://sylvaindurand.org/">Sylvain Durand</a>.
-</div>
-
-
+{{content}}
 
 
 <footer>
   <div class="first">
-    <a href="mailto:verena.ortlieb@gmail.com?subject=Let's talk" rel="nofollow">Mail</a></li>
+    <a href="mailto:verena.ortlieb@gmail.com?subject=Hallo" rel="nofollow">Mail</a></li>
     <a href="https://www.instagram.com/verena_von_o/" target="_blank" rel="nofollow">Instagram</a>
     <a href="https://de.linkedin.com/in/verena-ortlieb-5174babb" target="_blank" rel="nofollow">LinkedIn</a>
     <a href="https://www.xing.com/profile/Verena_Ortlieb" target="_blank" rel="nofollow">Xing</a>
   </div>
-
-    <div class="footer-menu-lang">
-{% for language in site.languages %}
-    {% if page.language == language %}
-      <a title="{% tl language %}">{% tl language %}</a>
-    {% else %}
-      <a href="{{ site.baseurl }}/{{ language }}/{{current[2]}}" title="{{ tl switch_language }}">{% tl language %}</a>
-    {% endif %}
-{% endfor %}
-</div>
-
   <div class="second">
-    Design and content © 2016 Verena Ortlieb
+    Design und Inhalt © 2016 Verena Ortlieb
   </div>
 </footer>
-
-
-
-
-
-
 
 
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A picture a day
 date: 2016-06-23
 permalink: /en/picture-a-day

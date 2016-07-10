@@ -1,5 +1,4 @@
 ---
-layout: post
 title: My UX Reading List
 date: 2015-12-12
 permalink: /en/ux-reading-list

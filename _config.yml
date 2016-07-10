@@ -1,15 +1,12 @@
-title: Verena Ortlieb
 permalink: /:title/
-base: http://www.verenaortlieb.com
+base: https://www.sylvaindurand.org
 
 kramdown:
   input: GFM
-
-exclude: [ "Gemfile", "Gemfile.lock", "Makefile" ]
 
 defaults:
   -
     scope:
       path: ""
     values:
-      layout: page
+      layout: default

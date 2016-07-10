@@ -7,11 +7,11 @@ en:
     url:   "/projects/"
   writing:
     title: "Writing"
-    url:   "/about/"
+    url:   "/writing/"
 de:
   logo:
     title: "Verena Ortlieb"
-    url:   "/journal/"
+    url:   "/"
   journal:
     title: "Projekte"
     url:   "/projects/"
