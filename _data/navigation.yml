@@ -11,10 +11,10 @@ en:
 de:
   logo:
     title: "Verena Ortlieb"
-    url:   "/"
+    url:   "/start"
   journal:
     title: "Projekte"
-    url:   "/projects/"
+    url:   "/projekte/"
   about:
     title: "Blog"
-    url:   "/writing/"
+    url:   "/blog/"
