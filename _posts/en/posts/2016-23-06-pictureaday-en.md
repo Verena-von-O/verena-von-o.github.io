@@ -4,6 +4,7 @@ date: 2016-06-23
 permalink: /en/picture-a-day
 lang: en
 ref: pictureaday
+categorie: blog
 ---
 
 What would life be without challenges. And like there isn’t enough on my plate already, I thought of something new to start.

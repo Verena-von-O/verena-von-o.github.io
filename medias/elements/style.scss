@@ -82,8 +82,9 @@ strong {
 .subheadline-index {
   font-family: "Abril Fatface", serif;
   color: $link-hover;
-  margin-top: 2em;
+  margin-top: 1.5em;
   font-weight: 400;
+  margin-bottom: 0em;
 }
 
 h2{
@@ -134,7 +135,7 @@ a.current {
 header {
   font-size: 1.25em;
   margin-top: 2em;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -143,7 +144,7 @@ header {
 
 @media all and (max-width: 700px) {
 header {
-  margin-bottom: 2.5em;
+  margin-bottom: 2em;
   flex-flow: column;
   align-items: center;
 }
@@ -168,7 +169,6 @@ header {
 .grid {
   flex-flow: row wrap;
   display: flex;
-  margin: 1.5em 0;
 }
 
 .grid-cell {

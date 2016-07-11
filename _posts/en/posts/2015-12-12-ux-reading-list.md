@@ -4,6 +4,7 @@ date: 2015-12-12
 permalink: /en/ux-reading-list
 lang: en
 ref: uxreading
+categorie: blog
 ---
 
 Every designer and developer and person should read books. A lot of books to be correct. Here you can find a list of books I read, want to read and re-read from time to time.
