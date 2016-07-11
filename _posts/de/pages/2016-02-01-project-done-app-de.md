@@ -5,8 +5,8 @@ ref: doneapp
 ---
 
  <h2 class="headline">Done! App</h2>
-
-    <p>Ich liebe es Listen zu machen. Simple To-do Listen, aber auch Listen, welche gleich den Zeitpunkt der Bearbeitung festlegen. Smartphones sind hierbei eine große Hilfe, können aber auch großen Druck auslösen.</p>
+<p>
+    Ich liebe es Listen zu machen. Simple To-do Listen, aber auch Listen, welche gleich den Zeitpunkt der Bearbeitung festlegen. Smartphones sind hierbei eine große Hilfe, können aber auch großen Druck auslösen.</p>
 
 <div class="project-sub-content">
       <h3>Worum geht es?</h3>

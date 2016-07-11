@@ -3,10 +3,9 @@ title: Bibventure
 lang: de
 ref: bibventure
 ---
+<h2 class="headline">Bibventure</h2>
 
- <h2 class="headline">Bibventure</h2>
-
-    <p>War wurde nicht jeder schon einmal als Kind von seinem Lehrer zu einem Klassenausflug in eine Bibliothek gebracht?! Dort ist man dann eine Stunde hinter einer Mitarbeiterin der Bibliothek hergelaufen. Was diese erklärt hat wusste man nichtmal während der Führung. Stattdessen lies man den Blick über die vielen Buchrücken gleite, unterhielt sich flüsternd mit seinem Nachbarn oder sehnte sich einfach nur ganz weit weg. Leider ist dies Alltag für die meisten Schüler. Nur wenige finden wirklich gefallen an einer Führung durch eine Bibliothek. <br>
+<p>War wurde nicht jeder schon einmal als Kind von seinem Lehrer zu einem Klassenausflug in eine Bibliothek gebracht?! Dort ist man dann eine Stunde hinter einer Mitarbeiterin der Bibliothek hergelaufen. Was diese erklärt hat wusste man nichtmal während der Führung. Stattdessen lies man den Blick über die vielen Buchrücken gleite, unterhielt sich flüsternd mit seinem Nachbarn oder sehnte sich einfach nur ganz weit weg. Leider ist dies Alltag für die meisten Schüler. Nur wenige finden wirklich gefallen an einer Führung durch eine Bibliothek. <br>
     Um dies zu ändern hat sich die Stadtbibliothek Stuttgart etwas überlegt. Sie wollen die “angestaubten” Führungen ersetzen und so den Schulklassen die Möglichkeit bieten etwas über die Bibliothek zu lernen und gleichzeitg Spass zu haben. </p>
 
 <div class="project-sub-content">

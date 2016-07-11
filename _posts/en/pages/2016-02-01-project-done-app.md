@@ -4,8 +4,8 @@ lang: en
 ref: doneapp
 ---
 <h2 class="headline">Done! App</h2>
-
-    <p>I love making lists. What to do, when to do it and so on. Your phone can be a big help figuring out what to do next. But it can also stress you out.</p>
+<p>
+    I love making lists. What to do, when to do it and so on. Your phone can be a big help figuring out what to do next. But it can also stress you out.</p>
 
 <div class="project-sub-content">
       <h3>What is it about?</h3>

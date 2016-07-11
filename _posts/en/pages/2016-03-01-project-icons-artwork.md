@@ -1,7 +1,7 @@
 ---
-title: Hear Rate App
+title: Icons and Artwork
 lang: en
-ref: heartrateapp
+ref: iconsartwork
 ---
 <div >
   <h2 class="headline">Icons, Illustrations, Artwork & more</h2>

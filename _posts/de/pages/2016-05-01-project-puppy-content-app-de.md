@@ -4,8 +4,8 @@ lang: de
 ref: puppycontentapp
 ---
 
-  <h2 class="headline">Puppy Content App</h2>
-    <p>Tierbabies machen Menschen glücklich. Also warum nicht eine App erstellen, welche schnell und einfach glücklich machen kann.</p>
+<h2 class="headline">Puppy Content App</h2>
+<p>Tierbabies machen Menschen glücklich. Also warum nicht eine App erstellen, welche schnell und einfach glücklich machen kann.</p>
 
 <div class="project-sub-content">
       <h3>Worum geht es?</h3>

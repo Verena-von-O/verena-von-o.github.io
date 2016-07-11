@@ -4,8 +4,8 @@ lang: en
 ref: puppycontentapp
 ---
 
-  <h2 class="headline">Puppy Content App</h2>
-    <p>Puppies make humans happy. So why not provide puppy content in an easy and nice way.</p>
+<h2 class="headline">Puppy Content App</h2>
+<p>Puppies make humans happy. So why not provide puppy content in an easy and nice way.</p>
 
 <div class="project-sub-content">
       <h3>What is it about?</h3>

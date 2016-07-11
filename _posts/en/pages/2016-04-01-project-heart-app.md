@@ -3,8 +3,9 @@ title: Heart Rate App
 lang: en
 ref: heartrateapp
 ---
-  <h2 class="headline">Heart Rate App</h2>
-    <p>Where there is a problem, there should be an app.</p>
+<h2 class="headline">Heart Rate App</h2>
+
+<p>Where there is a problem, there should be an app.</p>
 
 <div class="project-sub-content">
       <h3>What is it about?</h3>
