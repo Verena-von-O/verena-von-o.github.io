@@ -7,6 +7,8 @@ ref: artordesign
 categorie: blog
 ---
 
+## Kunst oder Design
+
 Wenn man als Designer, Grafiker, Künstler oder ähnliches arbeitet, wird man sich früher oder später damit auseinandersetzen, was der Unterschied zwischen Kunst und Design ist.
 
 Natürlich gibt es für beide Begriffe im Alltagsgebrauch bestimmte Vorstellungen. Künstler sind Freigeister die abseits aller Regeln Werke erschaffen, welche von “normalen“ Menschen meist nicht verstanden werden. “Das ist Kunst” kann durchaus eine negative Bezeichnung für etwas sein, was einfach schräg, anders, vielleicht schon falsch aussieht.

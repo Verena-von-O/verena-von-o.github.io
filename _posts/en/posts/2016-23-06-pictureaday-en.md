@@ -7,6 +7,8 @@ ref: pictureaday
 categorie: blog
 ---
 
+## A picture a day
+
 What would life be without challenges. And like there isn’t enough on my plate already, I thought of something new to start.
 
 How often do you have a new idea for a project, no matter the size, but also have 300 other ideas half finished on your desk?! There is always something to modify, to revise, to perfect before the project can be published. This way, most projects never see the light of day. But why? Is there such a thing as “finished”? And if there is, how does it look like? How does it feel? And how long does it take to get there?

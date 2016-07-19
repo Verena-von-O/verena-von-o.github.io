@@ -7,6 +7,8 @@ ref: uxreading
 categorie: blog
 ---
 
+## Meine UX Leseliste
+
 Jeder Designer, Entwickler oder anderweitig Interessierte liest Bücher. Viele Bücher um genau zu sein. Natürlich auch viele Blogs, Artikel und so weiter, aber hier soll es jetzt erstmal um Bücher gehen.
 
 Im Gegensatz zu Blogbeiträgen sind Bücher meist umfassender und genauer recherchiert, allerdings nicht so aktuell.
