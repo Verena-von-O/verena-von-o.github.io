@@ -29,14 +29,21 @@ layout: compress
 
 <body class="{{ page.lang }}{% if page.type == 'pages' %} page{% endif %}" id="site">
 
-<header>
+<header class="header">
   {% for menu in site.data.navigation[page.lang] %}
-    <div class="header-left"><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></div>{% endfor %}
-    <div></div>
-    <div class="header-lang">{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}{% for post in posts %}
+    {% if page.url == menu[1].url %}
+      <div><a class="active" href="{{ menu[1].url }}">{{ menu[1].title }}</a></div>
+    {% else %}
+      <div><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></div>
+    {% endif %}
+  {% endfor %}
+    <div>{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}{% for post in posts %}
       <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>{% endfor %}
     </div>
 </header>
+
+
+  
 
 
 {{content}}
@@ -48,6 +55,7 @@ layout: compress
     <a href="https://www.instagram.com/verena_von_o/" target="_blank" rel="nofollow">Instagram</a>
     <a href="https://de.linkedin.com/in/verena-ortlieb-5174babb" target="_blank" rel="nofollow">LinkedIn</a>
     <a href="https://www.xing.com/profile/Verena_Ortlieb" target="_blank" rel="nofollow">Xing</a>
+     <a href="https://dribbble.com/verena_von_o" target="_blank" rel="nofollow">Dribbble</a>
   </div>
   <div class="second">
     Design und Inhalt © 2016 Verena Ortlieb

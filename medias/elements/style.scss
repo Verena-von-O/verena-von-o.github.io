@@ -41,6 +41,10 @@ em {
   font-style: italic;
 }
 
+.en .en, .de .de {
+  color: $link-hover;
+}
+
 
 // font
 
@@ -82,7 +86,7 @@ strong {
 .subheadline-index {
   font-family: "Abril Fatface", serif;
   color: $link-hover;
-  margin-top: 1.5em;
+  margin-top: 2em;
   font-weight: 400;
   margin-bottom: 0em;
 }
@@ -129,6 +133,11 @@ a.current {
   color: $link-hover;
 }
 
+a:active {
+    color: $link-hover;
+}
+
+
 
 
 
@@ -152,18 +161,12 @@ header {
 }
   }
 
-.header-left {
+.header {
   padding-bottom: 0.5em;
-
 }
-
-.header-lang {
-
+.header .active {
+  color: $link-hover;
 }
-
-
-
-
 
 // index
 
@@ -202,12 +205,12 @@ header {
 .index-post-container__text {
   font-size: 1em;
   line-height: 1.75em;
-  margin-bottom: 5em;
+  margin-bottom: 1em;
 }
 
 
 
-// pojects
+// projects
 
 .grid-projects {
   flex-flow: row wrap;
@@ -299,54 +302,7 @@ header {
 
 
 // writing
-.post {
-  p {
-    margin-bottom: 1em;
-    line-height: 2em;
-  }
-    h1 {
-    color: $link-hover;
-    font-size: 3em;
-    padding: 15px 0;
-  }
-    h2 {
-    color: $link-hover;
-    font-size: 2em;
-    padding: 15px 0;
-  }
-  h3 {
-    color: $link-hover;
-    font-size: 1.5em;
-    padding: 15px 0;
-  }
-   h4 {
-    color: $link-hover;
-    font-size: 1.25em;
-    padding: 15px 0;
-  }
-  li {
-    padding: 5px 0;
-    list-style: disc;
-    list-style-position: inside;
-  }
-  img {
-    max-height: 400px;
-    max-width: 100%;
-    padding: 20px 0;
-  }
-  .post-title {
-    font-size: 1.75em;
-    font-weight: 700;
-    color: $link-hover;
-    margin-bottom: 2em;
-  }
-}
-@media all and (max-width: 700px) {
-  .title-page-post {
-    padding: 50px 50px 20px;
-    width: auto;
-  }
-}
+
 
 .post-container__date {
   font-size: 1em;
@@ -358,12 +314,30 @@ header {
   color: $text-highlight-green;
   margin-bottom: 0.5em;
 }
+
 .post-container__text {
   font-size: 1em;
   line-height: 2em;
   margin-bottom: 5em;
+  border-bottom: 2px solid #E7E7E7;
+  padding-bottom: 3em;
+
 }
 
+.post-date {
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 1em;
+}
+
+ .post-title {
+    font-size: 1.75em;
+    font-weight: 700;
+    color: $link-hover;
+    margin-bottom: 1em;
+    font-family: "Abril Fatface", serif;
+    margin-top: 0em;
+  }
 
 
 // footer
@@ -381,7 +355,7 @@ footer {
   .first {
     flex-grow: 1;
     a {
-      margin-right: 1em;
+      margin-right: 0.75em;
     }
   }
   .second {
