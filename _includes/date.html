@@ -4,7 +4,7 @@
 
     {% assign day = include.date | date: "%-d" %}
 
-    {% if page.lang != 'fr' %}
+    {% if page.lang != 'de' %}
 
         {% case day %}
             {% when '1' or '21' or '31' %}
@@ -29,7 +29,7 @@
 
 {% endif %}
 
-{% if page.lang != 'fr' %}
+{% if page.lang != 'de' %}
 
     {% capture month %}{{ include.date | date: "%B" }}{% endcapture %}
 
@@ -38,29 +38,29 @@
     {% assign m = include.date | date: "%-m" %}
     {% case m %}
         {% when '1' %}
-            {% capture month %}janvier{% endcapture %}
+            {% capture month %}Januar{% endcapture %}
         {% when '2' %}
-            {% capture month %}février{% endcapture %}
+            {% capture month %}Februar{% endcapture %}
         {% when '3' %}
-            {% capture month %}mars{% endcapture %}
+            {% capture month %}März{% endcapture %}
         {% when '4' %}
-            {% capture month %}avril{% endcapture %}
+            {% capture month %}April{% endcapture %}
         {% when '5' %}
-            {% capture month %}mai{% endcapture %}
+            {% capture month %}Mai{% endcapture %}
         {% when '6' %}
-            {% capture month %}juin{% endcapture %}
+            {% capture month %}Juni{% endcapture %}
         {% when '7' %}
-            {% capture month %}juillet{% endcapture %}
+            {% capture month %}Juli{% endcapture %}
         {% when '8' %}
-            {% capture month %}août{% endcapture %}
+            {% capture month %}August{% endcapture %}
         {% when '9' %}
-            {% capture month %}septembre{% endcapture %}
+            {% capture month %}September{% endcapture %}
         {% when '10' %}
-            {% capture month %}octobre{% endcapture %}
+            {% capture month %}Oktober{% endcapture %}
         {% when '11' %}
-            {% capture month %}novembre{% endcapture %}
+            {% capture month %}November{% endcapture %}
         {% when '12' %}
-            {% capture month %}décembre{% endcapture %}
+            {% capture month %}Dezember{% endcapture %}
     {% endcase %}
 
 {% endif %}
