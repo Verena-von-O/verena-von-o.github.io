@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+
+{% include date.html date=page.date %}
+<h3 class="post-date">
+    {% if page.lang == 'de' %}
+{{ day }}. {{ month }} {{ year }} </h3>
+    {% else %}
+{{ month }} {{ day }}, {{ year }}
+    {% endif %}
+
+<h3 class="post-title">{{ page.title }}</h3>
+
+{{ content }}
