@@ -9,8 +9,32 @@ ref: iconsartwork
   <h3 class="project-sub-title">No text, no description, just pictures. <br> Enjoy.</h3>
 
   
-   <div class="grid-sub-projects">
+    <div class="grid-sub-projects">
+     <div class="grid-cell-sub-projects">
+            <img src="/img/RWday.jpg" alt="RW day">
+        </div>
+         <div class="grid-cell-sub-projects">
+            <img src="/img/RWnight.jpg" alt="RW night">
+        </div>
+     <div class="grid-cell-sub-projects">
+            <img src="/img/Owlcolour.jpg" alt="Owl colour">
+        </div> 
+         <div class="grid-cell-sub-projects">
+            <img src="/img/Waschbaer.jpg" alt="Waschbaer">
+        </div>
         <div class="grid-cell-sub-projects">
+            <img src="/img/Fox.jpg" alt="Fox">
+        </div> 
+        <div class="grid-cell-sub-projects">
+            <img src="/img/Mouse.jpg" alt="Mouse">
+        </div> 
+        <div class="grid-cell-sub-projects">
+            <img src="/img/Owlwhite.jpg" alt="Owl white">
+        </div>
+     <div class="grid-cell-sub-projects">
+            <img src="/img/Pineapple.jpg" alt="Pineapple">
+        </div>
+     <div class="grid-cell-sub-projects">
             <img src="/img/Karotte.jpg" alt="Karotte">
         </div>
         <div class="grid-cell-sub-projects">
