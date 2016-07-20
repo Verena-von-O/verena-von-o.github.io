@@ -48,23 +48,24 @@ Besides showing some of my work this website is my first coding project. Hope yo
 
 {% for post in site.posts %}
 	{% assign latestShown = false %}
-	{% if post.language == page.language %}
-		{% assign latestShown = true %}
+		{% if post.lang == page.lang %}
+			{% assign latestShown = true %}
 
+{% include date.html date=post.date %}
 <time class="index-post-container__date">
-{{ post.date | date: '%B %d, %Y' }}  </time>
+{{ month }} {{ day }}, {{ year }}  </time>
 
 <div class="index-post-container__title"> <a href="{{ post.url }}">
 {{ post.title }}</a></div>
 
 <div class="index-post-container__text">
 {{ post.excerpt | remove: '<p>' | remove: '</p>' }}<a href="{{ post.url }}">Continue reading...</a>
-	{% endif %}
-	{% if latestShown == true %}
+
+				{% endif %}
+			{% if latestShown == true %}
 		{% break %}
 	{% endif %}
 {% endfor %}
-
 
 
 <h3 class="subheadline-index">Anything Else</h3>

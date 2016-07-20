@@ -5,9 +5,9 @@ permalink: /de/ux-leseliste
 lang: de
 ref: uxreading
 categorie: blog
+layout: post
 ---
 
-## Meine UX Leseliste
 
 Jeder Designer, Entwickler oder anderweitig Interessierte liest Bücher. Viele Bücher um genau zu sein. Natürlich auch viele Blogs, Artikel und so weiter, aber hier soll es jetzt erstmal um Bücher gehen.
 

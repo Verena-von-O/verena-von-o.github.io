@@ -5,9 +5,9 @@ permalink: /de/kunstoderdesign
 lang: de
 ref: artordesign
 categorie: blog
+layout: post
 ---
 
-## Kunst oder Design
 
 Wenn man als Designer, Grafiker, Künstler oder ähnliches arbeitet, wird man sich früher oder später damit auseinandersetzen, was der Unterschied zwischen Kunst und Design ist.
 
