@@ -1,0 +1,27 @@
+---
+title: Davon ein digitaler Nomade zu werden
+date: 2016-08-02
+permalink: /de/digitaler-nomade-werden
+lang: de
+ref: digitalernomadewerden
+categorie: blog
+layout: post
+---
+
+Ein Gedanke schwebt bei Vielen durch die Untiefen des Gehirns. Einfach die Koffer packen und los ziehen. Frei zu sein, dort zu sein, wo man gerne möchte und das Leben zu genießen. 
+
+Jeder hat auf die ein oder andere Weise bestimmt schon einmal darüber nachgedacht sein bisheriges Leben hinter sich zu lassen um zu neuen Abenteuern aufzubrechen. Sei es für eine Weltreise, ein *Sabbatical*, eine Auswanderung oder eben das Dasein als digitaler Nomade. Möglichkeiten gibt es hier viele und für jeden ist etwas dabei. Doch meist endet dieser Gedanke mit dem Ankommen im Alltag. Von reinen Zweifeln der Umsetzbarkeit (“Wie soll das denn gehen?”) bis zu meist vorgeschobenen Gründen welche in den meisten Fällen nicht im Wege stehen würden wenn man es wirklich möchte (”Ich habe doch meinen Job hier” oder ähnliches). Oder der schlimmste Grund: “So etwas macht man doch nicht.” Ja, es ist unüblich. Ja, nicht all zu viele Menschen machen es. Und ja, viele verstehen auch nicht, warum man es macht. Aber nein, ein Grund dagegen ist das alles nicht.
+
+Wir, mein Mann und ich, hatten auch schon öfters den Gedanken, dass wir gerne weg möchten. Reisen, die Welt entdecken und nicht in einem normalen Alltagstrott versinken. In einer Wohnung zu wohnen welche in einer Stadt liegt in der wir wohnen weil es hier einen Job gab. Und dann gehen wir morgens aus unserer hübsch eingerichteten Wohnung um hier wieder zurück zu kehren, wenn es meist schon dunkel ist. Klar, wir bekommen auch schön viel Geld für die Arbeit die wir tun, aber was haben wir von dem Geld, wenn wir eigentlich doch nur bei der Arbeit sind, abends müde von der Arbeit nichts tun und das Wochenende, wenn es mal frei sein sollte, dafür nutzen das nötigste zu tun, damit Nahrungsmittel in der Wohnung sind und die Wohnung wieder sauber ist. Und dann ist auch schon wieder Montag.
+
+Versteht mich nicht falsch. Ich arbeite sehr gerne. Ich arbeite meist auch viel zu viel und wirkliche Freizeit ist auch sehr, sehr selten. Aber ich arbeite einfach gerne zu meinen Konditionen. Wann ich es möchte und nicht einfach von 9 bis 18 Uhr weil es mir jemand so sagt. 
+
+Und so wurden aus wagen Ideen konkrete Vorstellungen. Und nachdem wir uns immer mehr mit dem Thema beschäftigt haben gingen uns die Ausreden aus. Wir haben immer weniger Gründe gefunden es nicht zu tun. Nicht einfach die Koffer zu packen und los zu ziehen. Für unseren Job brauchen wir beide nur Laptop und Internet. Das findet man in fast allen Teilen der Welt. Unsere Wohnung ist zwar hübsch, aber nach fast 5 Jahren war auch mal wieder ein Tapetenwechsel nötig. Klar ist es schade, Freunde und Familie zurück zu lassen, aber danke diverser Anbieter ist eine Kommunikation über dieses wunderbare Internet jederzeit möglich. 
+
+Was uns noch sehr bei der Entscheidung geholfen hat war zu lesen, was andere tun. Fast jeder digitale Nomade, Weltenbummler oder wie sie sich auch immer nennen mögen hat einen Blog. Auf diesem ist meist ziemlich genau zu finden, wie diese das Leben in der grossen weiten Welt meistern. Von Packlisten über genaue Auflistungen in welchem Cafe es wie viele Steckdosen gibt bis hin zu Kostenaufstellungen für das Leben in verschiedenen Bereichen der Welt ist alles zu finden. Ach ja, Reiseberichte gibt es auch. Aber das ist oft nur Nebenprodukt. 
+
+Nachdem wir uns einige Zeit durch diese Vielfalt an verschiedenen Möglichkeiten gelesen hatten wurde unsere Vorstellung immer klarer. Uns wurde bewusst, dass wir gerne mehr von einer Gegend erleben möchten als man das in einem normalen Urlaub macht. Daher wollen wir längere Zeit an einem Ort bleiben, dort wirklich ankommen und einen Alltag empfinden können. Dies ist auch nötig, damit man produktiv arbeiten kann, was als digitaler Nomade essenziell ist, da man sich dieses Leben sonst nicht leisten kann. Auch sind Langzeitmieten meist günstiger und es lohnt sich selbst Lebensmittel zu kaufen und zu kochen. Was dem Geldbeutel wieder gut tut.
+
+So formte sich nach und nach ein Plan und die Entscheidung es wirklich zu machen wurde getroffen. Recht schnell war dann auch klar, dass wir in Deutschland alles aufgeben werden. Das hiess also, alles verkaufen, verschenken, spenden oder wegwerfen, was sich in unserer Wohnung so angesammelt hat. Die Wohnung kündigen und nur noch das besitzen, was wir mitnehmen werden (ok, zugegeben, es gibt bei Mama noch eine Kiste mit Winterklamotten). Und auch das, was wir mitnehmen wurde stark reduziert als wir beschlossen nur mit Handgepäck zu reisen. Uns haben die Vorteile dieser Art zu Reisen sehr gefallen. Beispielsweise muss man kein Gepäck aufgeben, das Gepäck kann nicht unterwegs verloren gehen und vor allem kann ich meinen Rucksack selbst tragen und kriege ihn auch ohne Hilfe selbst auf den Rücken. 
+
+Und so wurden die neuen Rucksäcke gekauft, das was man nicht mehr braucht weg gegeben und dann ging es plötzlich los. Schon sassen wir im Flugzeug nach Thailand und wunderten uns, wo wir den Mut hergenommen haben diesen Schritt zu wagen. Aber aufgeregt und mit leicht mulmigem Gefühl freuen wir auf das, was kommen mag…
