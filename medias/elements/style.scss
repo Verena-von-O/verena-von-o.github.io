@@ -215,15 +215,16 @@ header {
 // projects
 
 .grid-projects {
-  flex-flow: row wrap;
+  flex-flow: column;
   display: flex;
   margin: 1.5em 0;
 }
 
 .grid-cell-projects {
-  flex: auto;
-  width: 150px;
+  flex: row wrap;
+  width: 300px;
   margin: 0.25em;
+  margin-bottom: 1em;
 }
 
 .grid-cell-projects img {
@@ -231,12 +232,18 @@ header {
   height: auto;
 }
 
+.grid-cell-projects p {
+  color: $link-hover;
+  margin-top: 0em;
+  font-size: 1.35em;
+}
+
 .grid-projects a:hover {
   border-bottom: none;
 }
 
 .project-sub-headline {
-    color: $text-highlight-green;
+  color: $text-highlight-green;
   margin: 50px 0 10px 0;
   font-size: 1.5em;
 }
