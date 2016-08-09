@@ -4,6 +4,14 @@ url: http://www.verenaortlieb.com
 kramdown:
   input: GFM
 
+exclude:
+  - bower_components
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - Readme.md
+  - CNAME
+
 defaults:
   -
     scope:
