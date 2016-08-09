@@ -43,9 +43,6 @@ layout: compress
 </header>
 
 
-  
-
-
 {{content}}
 
 
@@ -74,5 +71,26 @@ layout: compress
   ga('send', 'pageview');
 
 </script>
+
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/jribbble/dist/jribbble.min.js"></script>
+
+<script>
+  $.jribbble.setToken('14de463adcb154390c552cde3bbe2a977b3516a806ade0cc7d9a8cb66f36bfe7');  
+
+  $.jribbble.users('verena_von_o').shots({per_page: 36}).then(function(shots) {
+    var html = [];
+    
+    shots.forEach(function(shot) {
+      html.push('<div class="grid-cell">');
+      html.push('<a href="' + shot.html_url + '" target="_blank">');
+      html.push('<img src="' + shot.images.normal + '">');
+      html.push('</a></div>');
+    });
+    
+    $('.shots').html(html.join(''));
+  });
+</script>
+
 </body>
 </html>
