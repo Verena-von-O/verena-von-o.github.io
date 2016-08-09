@@ -29,7 +29,7 @@ ref: iconsartwork
             <img src="/img/Mouse.jpg" alt="Mouse">
         </div> 
         <div class="grid-cell-sub-projects">
-            <img src="/img/Owlwhite.jpg" alt="Owl white">
+            <img src="/img/OwlWhite.jpg" alt="Owl white">
         </div>
      <div class="grid-cell-sub-projects">
             <img src="/img/Pineapple.jpg" alt="Pineapple">
