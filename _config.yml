@@ -5,7 +5,6 @@ kramdown:
   input: GFM
 
 exclude:
-  - bower_components
   - Gemfile
   - Gemfile.lock
   - Makefile
