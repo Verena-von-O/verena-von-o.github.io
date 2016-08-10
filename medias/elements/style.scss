@@ -221,7 +221,6 @@ header {
 }
 
 .grid-cell-projects {
-  flex: row wrap;
   width: 300px;
   margin: 0.25em;
   margin-bottom: 1em;
@@ -233,9 +232,9 @@ header {
 }
 
 .grid-cell-projects p {
-  color: $link-hover;
   margin-top: 0em;
   font-size: 1.35em;
+  font-weight: 600
 }
 
 .grid-projects a:hover {
