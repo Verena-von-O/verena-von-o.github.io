@@ -37,7 +37,7 @@ layout: compress
       <div><a href="{{ menu[1].url }}">{{ menu[1].title }}</a></div>
     {% endif %}
   {% endfor %}
-    <div>{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}{% for post in posts %}
+    <div class="lang">{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}{% for post in posts %}
       <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>{% endfor %}
     </div>
 </header>

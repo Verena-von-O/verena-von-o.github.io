@@ -161,13 +161,22 @@ header {
   flex-flow: column;
   align-items: center;
 }
-  }
+}
 
 .header {
   padding-bottom: 0.5em;
 }
 .header .active {
   color: $link-hover;
+}
+
+.lang {
+  padding-left: 8em;
+}
+@media all and (max-width: 700px) {
+.lang {
+  padding: initial;
+}
 }
 
 // index
