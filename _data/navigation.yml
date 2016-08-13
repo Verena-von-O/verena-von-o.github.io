@@ -2,9 +2,9 @@ en:
   logo:
     title: "Verena Ortlieb"
     url:   "/"
-  projects:
-    title: "Projects"
-    url:   "/projects/"
+  # projects:
+  #   title: "Projects"
+  #   url:   "/projects/"
   writing:
     title: "Writing"
     url:   "/writing/"
@@ -12,9 +12,9 @@ de:
   logo:
     title: "Verena Ortlieb"
     url:   "/start/"
-  journal:
-    title: "Projekte"
-    url:   "/projekte/"
+  # journal:
+  #   title: "Projekte"
+  #   url:   "/projekte/"
   about:
     title: "Blog"
     url:   "/blog/"
