@@ -181,6 +181,36 @@ header {
 
 // index
 
+.instafeed-box {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.instafeed {
+  flex: auto;
+}
+
+.instafeed img {
+  width: 31.5%;
+  height: auto;
+  margin: 0.25em;
+
+}
+
+
+@media all and (max-width: 570px) {
+
+.instafeed img {
+  width: 100%;
+}
+}
+
+
+#instafeed a:hover {
+  border-bottom: none;
+}
+
+
 
 .grid {
   flex-flow: row wrap;

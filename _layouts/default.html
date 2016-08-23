@@ -72,24 +72,21 @@ layout: compress
 
 </script>
 
-<script src="/bower_components/jquery/dist/jquery.min.js"></script>
-<script src="/bower_components/jribbble/dist/jribbble.min.js"></script>
+<script src="/bower_components/instafeed.js/instafeed.min.js"></script>
+
+
 
 <script>
-  $.jribbble.setToken('14de463adcb154390c552cde3bbe2a977b3516a806ade0cc7d9a8cb66f36bfe7');  
-
-  $.jribbble.users('verena_von_o').shots({per_page: 9}).then(function(shots) {
-    var html = [];
-    
-    shots.forEach(function(shot) {
-      html.push('<div class="grid-cell">');
-      html.push('<a href="' + shot.html_url + '" target="_blank">');
-      html.push('<img src="' + shot.images.normal + '">');
-      html.push('</a></div>');
+    var feed = new Instafeed({
+      get: 'user',
+      userId: '235777319',
+      accessToken: '235777319.1677ed0.ebd34494c5554eaeb4ee4c1d86b83232',
+      limit: 9,
+      {% assign url = '{{link}}' %}
+      {% assign img = '{{image}}' %}
+      template: '<a href="{{url}}" target="_blank"><img src="{{img}}" /></a>',
     });
-    
-    $('.shots').html(html.join(''));
-  });
+    feed.run();
 </script>
 
 </body>
