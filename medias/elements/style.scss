@@ -194,7 +194,6 @@ header {
   width: 31.5%;
   height: auto;
   margin: 0.25em;
-
 }
 
 
@@ -410,7 +409,8 @@ footer {
   .first {
     flex-grow: 1;
     a {
-      margin-right: 0.75em;
+      margin-right: 1em;
+      // margin-left: 0.75em;
     }
   }
   .second {
@@ -430,11 +430,11 @@ footer {
     flex-flow: column nowrap;
     align-items: center;
     margin-bottom: 3em;
+    justify-content: space-between;
 
-    .first, .second {
+    .first {
       a {
-        margin-right: 0.5em;
-        margin-left: 0.5em;
+        margin-left: 0em;
       }
 
       flex-direction: row;
