@@ -9,4 +9,4 @@ build:
 	bundle exec jekyll build
 
 serve:
-	bundle exec jekyll serve --config _config.yml,_config-dev.yml
+	bundle exec jekyll serve --config "_config.yml,_config-dev.yml"
