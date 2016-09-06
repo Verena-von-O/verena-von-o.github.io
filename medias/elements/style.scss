@@ -152,32 +152,47 @@ header {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-}
-
-
-@media all and (max-width: 700px) {
-header {
-  margin-bottom: 2em;
-  flex-flow: column;
   align-items: center;
 }
-}
 
-.header {
-  padding-bottom: 0.5em;
-}
-.header .active {
+header .active {
   color: $link-hover;
 }
 
+
 .lang {
-  padding-left: 8em;
+  margin-left: 3em;
 }
+
+.sayhi a {
+  border: $text-highlight-green solid 2px;
+  padding: 0.35em 0.65em;
+}
+
+.sayhi a:hover {
+  border: $text-highlight-green solid 2px;
+  color: white;
+  background-color: $text-highlight-green
+}
+
 @media all and (max-width: 700px) {
-.lang {
-  padding: initial;
+  header {
+  margin-bottom: 2em;
+  flex-flow: column;
+  align-items: center;
+  } 
+  header div {
+    margin: 0.25em 0
+  }
+  .lang {
+    margin-left: 0;
+  }
+  .sayhi {
+    margin-top: 0.5em;
+  }
+ 
 }
-}
+
 
 // index
 
@@ -377,7 +392,7 @@ header {
 }
 
  .post-title {
-    font-size: 1.75em;
+    font-size: 2em;
     font-weight: 700;
     color: $link-hover;
     margin-bottom: 1em;
@@ -385,10 +400,19 @@ header {
     margin-top: 0em;
   }
 
-.post 
-    li {
+.post li {
     line-height: 2em;
     list-style: disc
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+}
+
+.post h3 {
+  font-size: 1.5em;
+  
 }
   
 
